@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 57.094 s <<< FAILURE! - in TestSuite
+validateobjecttittle(Acadmey.validatetittle)  Time elapsed: 1.579 s  <<< FAILURE!
+java.lang.AssertionError: expected:<Rediffmail> but was:<Rediffmail123>
+	at Acadmey.validatetittle.validateobjecttittle(validatetittle.java:33)
+

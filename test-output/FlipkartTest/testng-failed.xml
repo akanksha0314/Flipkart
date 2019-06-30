@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FlipkartTest]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="resources.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Acadmey.SearchProduct">
+        <methods>
+          <include name="addproducttocart"/>
+          <include name="placeorder"/>
+        </methods>
+      </class> <!-- Acadmey.SearchProduct -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [FlipkartTest] -->
